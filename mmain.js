@@ -1,4 +1,4 @@
-console.log("Ook hallo wereld vanuit javascript")
+console.log("Ook hallo wereld vanaf Javascript!");
 
 import * as maplibregl from "https://esm.sh/maplibre-gl";
 
