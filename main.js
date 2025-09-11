@@ -8,7 +8,7 @@ import * as maplibregl from "https://esm.sh/maplibre-gl";
 
 const map = new maplibregl.Map({
     container: 'mijnkaart', // container id
-    style: '/assets/style.json',
+    style: './assets/style.json',
     center: [51.96857, 5.66509], // starting position [lng, lat]
     zoom: 1 // starting zoom                                        
 });
