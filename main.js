@@ -10,6 +10,6 @@ console.log("Ook hallo wereld vanuit javascript")
 const map = new maplibregl.Map({
     container: 'mijnkaart', // container id
     style: './assets/style.json',
-    center: [51.96857, 5.66509], // starting position [lng, lat]
+    center: [51.979585 ,5.677271], // starting position [lng, lat]
     zoom: 13 // starting zoom                                        
 });
