@@ -1,8 +1,13 @@
 import * as maplibregl from "https://cdn.skypack.dev/maplibre-gl";
+import { Protocol } from "https://esm.sh/pmtiles";
 
+
+const protocol = new Protocol();
+maplibregl.addProtocol("pmtiles", protocol.tile);
 const map = new maplibregl.Map({
+  
       container: 'mijnkaart', // id van de div in index.html
-        style: 'https://tiles.openfreemap.org/styles/liberty', // jouw gewenste stijl
-          center: [5.6667, 51.967], // bijvoorbeeld Berlijn
-            zoom: 9.5
+        style: './assets/style.json',
+          center: [51.96857, 5.66509], // bijvoorbeeld Berlijn
+            zoom:  13
             });
