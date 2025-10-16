@@ -4,7 +4,7 @@
         "protomaps": {
             "type": "vector",
             "attribution": "<a href=\"https://github.com/protomaps/basemaps\">Protomaps</a> © <a href=\"https://openstreetmap.org\">OpenStreetMap</a>",
-            "url": "pmtiles://https://lamawizard.github.io/maplibre-workshop-foss4gnl-2025/assets/wageningen.pmtiles"
+            "url": "https://lamawizard.github.io/maplibre-workshop-foss4gnl-2025/assets/wageningen.pmtiles"
         }
     },
     "layers": [
